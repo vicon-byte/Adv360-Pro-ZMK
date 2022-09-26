@@ -51,10 +51,10 @@
         default_layer {
               bindings = <
    &kp ESC     &as F1 N1     &as F2 N2    &as F3 N3     &as F4 N4     &as F5 N5              &kp F10        &kp F12     &as F6 N6     &as F7 N7     &as F8 N8     &as F9 N9     &as F10 N0  &kp MINUS
-  &kp CAPS      &kp Q      &kp W     &kp E      &kp R      &kp T             &kp HOME          &none      &kp Y      &kp U      &kp I      &kp O      &kp P   &kp BSLH
-   &kp TAB      &kp A      &kp S     &kp D      &kp F      &kp G              &kp END       &kp LALT   &kp LGUI                         &kp LGUI  &kp RCTRL      &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
- &kp EQUAL      &kp Z      &kp X     &kp C      &kp V      &kp B                &none          &none    &as LC(DEL) DEL      &none      &none  &kp PG_UP      &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
- &kp ENTER  &kp GRAVE  &kp SPACE  &kp LEFT  &kp RIGHT  &kp LCTRL            &kp LSHFT  &as LC(BSPC) BSPC  &kp PG_DN  &kp ENTER  &kp SPACE     &kp UP   &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
+  &kp CAPS      &kp Q      &kp W     &kp E      &kp R      &kp T             &kp HOME          &kp PG_UP      &kp Y      &kp U      &kp I      &kp O      &kp P   &kp BSLH
+   &kp TAB      &kp A      &kp S     &kp D      &kp F      &kp G              &kp END       &kp LALT   &kp LGUI                         &kp LGUI  &kp RCTRL      &kp PG_DN     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+ &kp EQUAL      &kp Z      &kp X     &kp C      &kp V      &kp B                &none          &none    &as LC(DEL) DEL      &none      &none  &as LC(DEL) DEL      &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+ &kp ENTER  &kp GRAVE  &kp SPACE  &kp LEFT  &kp RIGHT  &kp LCTRL            &kp LSHFT  &as LC(BSPC) BSPC  &as LC(BSPC) BSPC  &kp ENTER  &kp SPACE     &kp UP   &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
